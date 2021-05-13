@@ -17,7 +17,7 @@ server {
         # wallarm_acl default;
 
         location / {
-                proxy_pass http://testapp.eastus.azurecontainer.io;
+                proxy_pass http://example.com;
                 include proxy_params;
         }
 }
